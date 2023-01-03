@@ -1,0 +1,23 @@
+# global
+*                                    @madkinsz
+
+# orion server
+/src/prefect/orion                   @zangell44 @madkinsz
+
+# deployments
+/src/prefect/cli/deployment.py       @cicdw
+/src/prefect/deployments.py          @cicdw
+
+# ui
+/orion-ui                            @pleek91
+
+# documentation
+/docs                                @tpdorsey
+mkdocs.yml                           @tpdorsey
+mkdocs.insiders.yml                  @tpdorsey
+
+# orchestration rules / policies
+/src/prefect/orion/orchestration     @anticorrelator
+
+# database configuration / models
+/src/prefect/orion/database          @anticorrelator
