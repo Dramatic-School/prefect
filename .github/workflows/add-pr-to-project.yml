@@ -3,6 +3,7 @@ on:
   pull_request:
     types:
       - ready_for_review
+      - review_requested
 jobs:
   track_pr:
     runs-on: ubuntu-latest
