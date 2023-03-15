@@ -1,5 +1,4 @@
 # Version: 0.20
-# Ver
 
 """The Versioneer - like a rocketeer, but for versions.
 
