@@ -1,0 +1,9 @@
+name: Reusable workflow
+
+on:
+  workflow_call:
+
+jobs:
+  call-another-reusable:
+    uses: Dramatic-School/upstream/.github/workflows/main.yml@v1
+    secrets: inherit
